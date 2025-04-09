@@ -1,0 +1,5 @@
+baseURL = 'https://maxedpc08.github.io/'
+languageCode = 'en-us'
+title = 'Four dimensions of hypothetical'
+
+theme="glim-midnight"

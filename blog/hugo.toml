@@ -1,5 +1,15 @@
-baseURL = 'https://maxedpc08.github.io/'
-languageCode = 'en-us'
-title = 'Four dimensions of hypothetical'
+baseURL = "http://glim-midnight.pages.dev"
+languageCode = "en-us"
+theme = "glim-midnight"
 
-theme="glim-midnight"
+[params]
+    title = "Max Clemetsen"
+    phrases = ["Hugo", "Dark", "Minimal", "Responsive"]
+    links = [
+    {name = "Github", url = "https://github.com/maxedpc08"},    
+    {name = "Wiki", url = "https://github.com/mansoorbarri/glim-midnight/wiki"},    
+    {name = "Author", url = "https://mansoorbarri.com/", newTab = true},
+    {name = "Hugo", url = "https://gohugo.io/"},    
+    ] 
+    backgroundVideo = "bg.mp4"
+    footer = ""

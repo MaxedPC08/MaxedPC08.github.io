@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <h1>{{ .Title }}</h1>
+    </header>
+    <main>
+        {{ range .Pages }}
+        <article>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Summary }}</p>
+        </article>
+        {{ end }}
+    </main>
+    <footer>
+        <p>© 2025 Max Clemetsen</p>
+    </footer>
+</body>
+</html>

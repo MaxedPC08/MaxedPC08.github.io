@@ -7,7 +7,7 @@ theme = "glim-midnight"
     phrases = ["Hugo", "Dark", "Minimal", "Responsive"]
     links = [
     {name = "Github", url = "https://github.com/maxedpc08"},    
-    {name = "Wiki", url = "https://github.com/mansoorbarri/glim-midnight/wiki"},    
+    {name = "Blog", url = "https://maxedpc08.github.io/blog/"},    
     {name = "Author", url = "https://mansoorbarri.com/", newTab = true},
     {name = "Hugo", url = "https://gohugo.io/"},    
     ] 
